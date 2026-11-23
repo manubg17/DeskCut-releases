@@ -1,81 +1,81 @@
 # DeskCut
 
-**[FranÃ§ais](#franÃ§ais) Â· [English](#english)**
+**[Français](#français) · [English](#english)**
 
 ---
 
-## FranÃ§ais
+## Français
 
-DeskCut est un lanceur et tableau de bord pour Windows 11 : une petite fenÃªtre toujours Ã  portÃ©e de
+DeskCut est un lanceur et tableau de bord pour Windows 11 : une petite fenêtre toujours à portée de
 main, ouverte par un raccourci clavier ou depuis la zone de notification, qui regroupe vos raccourcis,
-la surveillance de votre rÃ©seau, le suivi de votre temps, vos notes et vos schÃ©mas.
+la surveillance de votre réseau, le suivi de votre temps, vos notes et vos schémas.
 
-Ce dÃ©pÃ´t ne contient que les installeurs. Le code source n'est pas public.
+Ce dépôt ne contient que les installeurs. Le code source n'est pas public.
 
-### TÃ©lÃ©charger
+### Télécharger
 
-**[TÃ©lÃ©charger la derniÃ¨re version](https://github.com/manubg17/DeskCut-releases/releases/latest)**
+**[Télécharger la dernière version](https://github.com/manubg17/DeskCut-releases/releases/latest)**
 
 Dans la page de la version, sous *Assets*, prenez le fichier qui se termine par **`_x64-setup.exe`**.
 
-- **Configuration requise** : Windows 11 (64 bits). Aucun autre logiciel Ã  installer.
-- **Avertissement Windows** : l'installeur n'est pas signÃ© par un certificat de code. Windows
-  SmartScreen affiche donc Â« Windows a protÃ©gÃ© votre ordinateur Â» : cliquez sur *Informations
-  complÃ©mentaires*, puis *ExÃ©cuter quand mÃªme*.
-- **AprÃ¨s l'installation** : DeskCut se loge dans la zone de notification. Cliquez sur son icÃ´ne, ou
-  utilisez le raccourci clavier `Ctrl+K` (modifiable dans les paramÃ¨tres).
+- **Configuration requise** : Windows 11 (64 bits). Aucun autre logiciel à installer.
+- **Avertissement Windows** : l'installeur n'est pas signé par un certificat de code. Windows
+  SmartScreen affiche donc « Windows a protégé votre ordinateur » : cliquez sur *Informations
+  complémentaires*, puis *Exécuter quand même*.
+- **Après l'installation** : DeskCut se loge dans la zone de notification. Cliquez sur son icône, ou
+  utilisez le raccourci clavier `Ctrl+K` (modifiable dans les paramètres).
 
-### Mises Ã  jour
+### Mises à jour
 
-DeskCut vÃ©rifie au dÃ©marrage si une nouvelle version existe et la propose dans
-*ParamÃ¨tres â†’ Mises Ã  jour*. Le tÃ©lÃ©chargement est vÃ©rifiÃ© par signature avant d'Ãªtre installÃ©.
-AprÃ¨s chaque mise Ã  jour, une fenÃªtre Â« NouveautÃ©s Â» prÃ©sente ce qui a changÃ© ; le dÃ©tail de chaque
+DeskCut vérifie au démarrage si une nouvelle version existe et la propose dans
+*Paramètres → Mises à jour*. Le téléchargement est vérifié par signature avant d'être installé.
+Après chaque mise à jour, une fenêtre « Nouveautés » présente ce qui a changé ; le détail de chaque
 version figure aussi sur la [page des versions](https://github.com/manubg17/DeskCut-releases/releases).
 
 ### Ce que fait DeskCut
 
 | Module | En bref |
 |---|---|
-| **Raccourcis** | Lancer applications, sites web, sessions SSH et commandes systÃ¨me ; copier des textes prÃ©dÃ©finis. CatÃ©gories, Ã©pinglage, recherche au clavier. |
-| **Moniteurs** | VÃ©rifier pÃ©riodiquement des sites web et des adresses IP, avec Ã©tat et temps de rÃ©ponse. |
-| **Journal** | Suivre son temps : chronomÃ¨tre, entrÃ©es manuelles, client et projet, export CSV. |
-| **Connaissances** | Commandes, extraits de code, procÃ©dures, liens : classÃ©s par type, copiÃ©s d'un clic. |
-| **NOC** | Processeur, mÃ©moire, disques, connexion Internet, latence, dÃ©bit. Scan du rÃ©seau local avec historique, comparaison entre scans et schÃ©ma gÃ©nÃ©rÃ©. |
-| **Tableaux** | Croquis Ã  main levÃ©e et cartes mentales, ou diagrammes (organigrammes, UML, rÃ©seaux). Chaque tableau s'ouvre dans sa propre fenÃªtre et s'enregistre tout seul. |
-| **Notes et fichiers** | Notes, tÃ¢ches avec rappels, liens entre Ã©lÃ©ments, recherche dans le contenu de vos fichiers (PDF, Word, Excelâ€¦). |
+| **Raccourcis** | Lancer applications, sites web, sessions SSH et commandes système ; copier des textes prédéfinis. Catégories, épinglage, recherche au clavier. |
+| **Moniteurs** | Vérifier périodiquement des sites web et des adresses IP, avec état et temps de réponse. |
+| **Journal** | Suivre son temps : chronomètre, entrées manuelles, client et projet, export CSV. |
+| **Connaissances** | Commandes, extraits de code, procédures, liens : classés par type, copiés d'un clic. |
+| **NOC** | Processeur, mémoire, disques, connexion Internet, latence, débit. Scan du réseau local avec historique, comparaison entre scans et schéma généré. |
+| **Tableaux** | Croquis à main levée et cartes mentales, ou diagrammes (organigrammes, UML, réseaux). Chaque tableau s'ouvre dans sa propre fenêtre et s'enregistre tout seul. |
+| **Notes et fichiers** | Notes, tâches avec rappels, liens entre éléments, recherche dans le contenu de vos fichiers (PDF, Word, Excel…). |
 
-L'interface est disponible en franÃ§ais et en anglais.
+L'interface est disponible en français et en anglais.
 
-### Vos donnÃ©es
+### Vos données
 
-- **Tout est stockÃ© sur votre ordinateur**, dans `%APPDATA%\deskcut\DeskCut\config`. DeskCut n'a pas
-  de compte et n'envoie pas vos donnÃ©es sur un serveur.
-- **Ce qui sort de votre poste**, et seulement cela : la recherche d'une mise Ã  jour (ce dÃ©pÃ´t), les
-  vÃ©rifications que vous configurez vous-mÃªme (moniteurs, cibles de ping, scan de votre rÃ©seau), la
-  lecture de votre adresse IP publique affichÃ©e dans la barre de titre, et les retours que vous
+- **Tout est stocké sur votre ordinateur**, dans `%APPDATA%\deskcut\DeskCut\config`. DeskCut n'a pas
+  de compte et n'envoie pas vos données sur un serveur.
+- **Ce qui sort de votre poste**, et seulement cela : la recherche d'une mise à jour (ce dépôt), les
+  vérifications que vous configurez vous-même (moniteurs, cibles de ping, scan de votre réseau), la
+  lecture de votre adresse IP publique affichée dans la barre de titre, et les retours que vous
   choisissez d'envoyer.
-- **Scan rÃ©seau** : il ne porte que sur des rÃ©seaux privÃ©s, dans la limite de 1 024 adresses, et ne
-  dÃ©marre jamais seul. N'analysez que les rÃ©seaux que vous administrez ou pour lesquels vous avez
+- **Scan réseau** : il ne porte que sur des réseaux privés, dans la limite de 1 024 adresses, et ne
+  démarre jamais seul. N'analysez que les réseaux que vous administrez ou pour lesquels vous avez
   une autorisation.
 
-### Un problÃ¨me, une idÃ©e ?
+### Un problème, une idée ?
 
-Utilisez le formulaire intÃ©grÃ© : *ParamÃ¨tres â†’ Mises Ã  jour â†’ Envoyer un retour*. Aucun compte n'est
-nÃ©cessaire. Le message est transmis Ã  l'auteur ; il ne contient ni votre nom ni votre adresse, sauf
-si vous les Ã©crivez. Les informations techniques jointes (version de DeskCut, langue, version de
-Windows) sont affichÃ©es avant l'envoi et peuvent Ãªtre dÃ©cochÃ©es.
+Utilisez le formulaire intégré : *Paramètres → Mises à jour → Envoyer un retour*. Aucun compte n'est
+nécessaire. Le message est transmis à l'auteur ; il ne contient ni votre nom ni votre adresse, sauf
+si vous les écrivez. Les informations techniques jointes (version de DeskCut, langue, version de
+Windows) sont affichées avant l'envoi et peuvent être décochées.
 
-### Licence et crÃ©dits
+### Licence et crédits
 
-DeskCut n'est pas un logiciel libre : tous droits rÃ©servÃ©s. Vous pouvez le tÃ©lÃ©charger et l'utiliser ;
+DeskCut n'est pas un logiciel libre : tous droits réservés. Vous pouvez le télécharger et l'utiliser ;
 vous ne pouvez pas le redistribuer ni le modifier.
 
 DeskCut embarque des logiciels libres, dont :
 
-- l'Ã©diteur de croquis [Excalidraw](https://github.com/excalidraw/excalidraw) (licence MIT) ;
-- un Ã©diteur de diagrammes basÃ© sur [draw.io](https://github.com/jgraph/drawio) (licence Apache 2.0),
-  dont les fichiers sont repris sans modification. Â« draw.io Â» est une marque dÃ©posÃ©e de JGraph Ltd ;
-  DeskCut n'est ni affiliÃ© Ã  JGraph ni approuvÃ© par elle ;
+- l'éditeur de croquis [Excalidraw](https://github.com/excalidraw/excalidraw) (licence MIT) ;
+- un éditeur de diagrammes basé sur [draw.io](https://github.com/jgraph/drawio) (licence Apache 2.0),
+  dont les fichiers sont repris sans modification. « draw.io » est une marque déposée de JGraph Ltd ;
+  DeskCut n'est ni affilié à JGraph ni approuvé par elle ;
 - [Tauri](https://tauri.app) (licences MIT et Apache 2.0).
 
 ---
@@ -102,7 +102,7 @@ On the release page, under *Assets*, take the file ending in **`_x64-setup.exe`*
 
 ### Updates
 
-DeskCut checks at startup whether a new version exists and offers it in *Settings â†’ Updates*. The
+DeskCut checks at startup whether a new version exists and offers it in *Settings → Updates*. The
 download's signature is verified before it is installed. After each update, a "What's new" window
 shows what changed; the details of every version are also on the
 [releases page](https://github.com/manubg17/DeskCut-releases/releases).
@@ -117,7 +117,7 @@ shows what changed; the details of every version are also on the
 | **Knowledge** | Commands, code snippets, procedures, links: sorted by type, copied in one click. |
 | **NOC** | CPU, memory, disks, Internet connection, latency, throughput. Scan of the local network with history, comparison between scans and a generated diagram. |
 | **Boards** | Freehand sketches and mind maps, or diagrams (flowcharts, UML, networks). Each board opens in its own window and saves itself. |
-| **Notes and files** | Notes, tasks with reminders, links between items, search inside your files (PDF, Word, Excelâ€¦). |
+| **Notes and files** | Notes, tasks with reminders, links between items, search inside your files (PDF, Word, Excel…). |
 
 The interface is available in French and in English.
 
@@ -133,7 +133,7 @@ The interface is available in French and in English.
 
 ### A problem, an idea?
 
-Use the built-in form: *Settings â†’ Updates â†’ Send feedback*. No account is needed. The message is
+Use the built-in form: *Settings → Updates → Send feedback*. No account is needed. The message is
 passed on to the author; it holds neither your name nor your address unless you write them. The
 technical information attached (DeskCut version, language, Windows version) is shown before sending
 and can be unticked.
