@@ -6,9 +6,10 @@
 
 ## Français
 
-DeskCut est un lanceur et tableau de bord pour Windows 11 : une petite fenêtre toujours à portée de
-main, ouverte par un raccourci clavier ou depuis la zone de notification, qui regroupe vos raccourcis,
-la surveillance de votre réseau, le suivi de votre temps, vos notes et vos schémas.
+DeskCut est un lanceur et tableau de bord pour Windows 11 : une fine colonne d'icônes au bord de
+l'écran ouvre, dans un panneau, vos raccourcis, la surveillance de votre réseau, le suivi de votre
+temps, vos tâches, vos notes et vos schémas. Le panneau s'ouvre aussi par un raccourci clavier ou depuis
+la zone de notification, et certains modules s'ouvrent dans leur propre fenêtre.
 
 Ce dépôt ne contient que les installeurs. Le code source n'est pas public.
 
@@ -22,8 +23,9 @@ Dans la page de la version, sous *Assets*, prenez le fichier qui se termine par 
 - **Avertissement Windows** : l'installeur n'est pas signé par un certificat de code. Windows
   SmartScreen affiche donc « Windows a protégé votre ordinateur » : cliquez sur *Informations
   complémentaires*, puis *Exécuter quand même*.
-- **Après l'installation** : DeskCut se loge dans la zone de notification. Cliquez sur son icône, ou
-  utilisez le raccourci clavier `Ctrl+K` (modifiable dans les paramètres).
+- **Après l'installation** : la colonne d'icônes apparaît au bord droit de l'écran et DeskCut se loge
+  dans la zone de notification. Le raccourci clavier `Ctrl+K` (modifiable dans les paramètres) ouvre
+  les raccourcis.
 
 ### Mises à jour
 
@@ -36,13 +38,14 @@ version figure aussi sur la [page des versions](https://github.com/manubg17/Desk
 
 | Module | En bref |
 |---|---|
-| **Raccourcis** | Lancer applications, sites web, sessions SSH et commandes système ; copier des textes prédéfinis. Catégories, épinglage, recherche au clavier. |
+| **Raccourcis** | Lancer applications, sites web, sessions SSH et commandes système ; copier des textes prédéfinis. Catégories, épinglage, recherche au clavier. S'ouvre aussi dans sa propre fenêtre. |
 | **Moniteurs** | Vérifier périodiquement des sites web et des adresses IP, avec état et temps de réponse. |
 | **Journal** | Suivre son temps : chronomètre, entrées manuelles, client et projet, export CSV. |
 | **Connaissances** | Commandes, extraits de code, procédures, liens : classés par type, copiés d'un clic. |
 | **NOC** | Processeur, mémoire, disques, connexion Internet, latence, débit. Scan du réseau local avec historique, comparaison entre scans et schéma généré. |
 | **Tableaux** | Croquis à main levée et cartes mentales, ou diagrammes (organigrammes, UML, réseaux). Chaque tableau s'ouvre dans sa propre fenêtre et s'enregistre tout seul. |
-| **Notes et fichiers** | Notes, tâches avec rappels, liens entre éléments, recherche dans le contenu de vos fichiers (PDF, Word, Excel…). |
+| **Tâches** | Tâches avec échéances et rappels, liées à vos notes et fichiers. S'ouvre aussi dans sa propre fenêtre. |
+| **Notes et fichiers** | Notes, liens entre éléments, recherche dans le contenu de vos fichiers (PDF, Word, Excel…). |
 
 L'interface est disponible en français et en anglais.
 
@@ -60,7 +63,7 @@ L'interface est disponible en français et en anglais.
 
 ### Un problème, une idée ?
 
-Utilisez le formulaire intégré : le bouton en forme de bulle dans la barre de titre, à côté des
+Utilisez le formulaire intégré : le bouton en forme de bulle en haut du panneau, à côté des
 paramètres. Aucun compte n'est
 nécessaire. Le message est transmis à l'auteur ; il ne contient ni votre nom ni votre adresse, sauf
 si vous les écrivez. Les informations techniques jointes (version de DeskCut, langue, version de
@@ -83,9 +86,10 @@ DeskCut embarque des logiciels libres, dont :
 
 ## English
 
-DeskCut is a launcher and dashboard for Windows 11: a small window always within reach, opened with a
-keyboard shortcut or from the notification area, that brings together your shortcuts, the monitoring
-of your network, your time tracking, your notes and your diagrams.
+DeskCut is a launcher and dashboard for Windows 11: a slim column of icons at the edge of the screen
+opens, in a panel, your shortcuts, the monitoring of your network, your time tracking, your tasks, your
+notes and your diagrams. The panel also opens with a keyboard shortcut or from the notification area, and
+some modules open in a window of their own.
 
 This repository only holds the installers. The source code is not public.
 
@@ -98,8 +102,9 @@ On the release page, under *Assets*, take the file ending in **`_x64-setup.exe`*
 - **Requirements**: Windows 11 (64-bit). Nothing else to install.
 - **Windows warning**: the installer is not signed with a code-signing certificate, so Windows
   SmartScreen shows "Windows protected your PC": click *More info*, then *Run anyway*.
-- **After installing**: DeskCut sits in the notification area. Click its icon, or use the keyboard
-  shortcut `Ctrl+K` (it can be changed in the settings).
+- **After installing**: the column of icons appears at the right edge of the screen and DeskCut sits in
+  the notification area. The keyboard shortcut `Ctrl+K` (it can be changed in the settings) opens the
+  shortcuts.
 
 ### Updates
 
@@ -112,13 +117,14 @@ shows what changed; the details of every version are also on the
 
 | Module | In short |
 |---|---|
-| **Shortcuts** | Launch applications, websites, SSH sessions and system commands; copy predefined texts. Categories, pinning, keyboard search. |
+| **Shortcuts** | Launch applications, websites, SSH sessions and system commands; copy predefined texts. Categories, pinning, keyboard search. Also opens in a window of its own. |
 | **Monitors** | Check websites and IP addresses at regular intervals, with status and response time. |
 | **Journal** | Track your time: timer, manual entries, client and project, CSV export. |
 | **Knowledge** | Commands, code snippets, procedures, links: sorted by type, copied in one click. |
 | **NOC** | CPU, memory, disks, Internet connection, latency, throughput. Scan of the local network with history, comparison between scans and a generated diagram. |
 | **Boards** | Freehand sketches and mind maps, or diagrams (flowcharts, UML, networks). Each board opens in its own window and saves itself. |
-| **Notes and files** | Notes, tasks with reminders, links between items, search inside your files (PDF, Word, Excel…). |
+| **Tasks** | Tasks with due dates and reminders, linked to your notes and files. Also opens in a window of its own. |
+| **Notes and files** | Notes, links between items, search inside your files (PDF, Word, Excel…). |
 
 The interface is available in French and in English.
 
@@ -134,7 +140,7 @@ The interface is available in French and in English.
 
 ### A problem, an idea?
 
-Use the built-in form: the speech-bubble button in the title bar, next to the settings. No account is needed. The message is
+Use the built-in form: the speech-bubble button at the top of the panel, next to the settings. No account is needed. The message is
 passed on to the author; it holds neither your name nor your address unless you write them. The
 technical information attached (DeskCut version, language, Windows version) is shown before sending
 and can be unticked.
