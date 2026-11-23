@@ -60,7 +60,8 @@ L'interface est disponible en français et en anglais.
 
 ### Un problème, une idée ?
 
-Utilisez le formulaire intégré : *Paramètres → Mises à jour → Envoyer un retour*. Aucun compte n'est
+Utilisez le formulaire intégré : le bouton en forme de bulle dans la barre de titre, à côté des
+paramètres. Aucun compte n'est
 nécessaire. Le message est transmis à l'auteur ; il ne contient ni votre nom ni votre adresse, sauf
 si vous les écrivez. Les informations techniques jointes (version de DeskCut, langue, version de
 Windows) sont affichées avant l'envoi et peuvent être décochées.
@@ -133,7 +134,7 @@ The interface is available in French and in English.
 
 ### A problem, an idea?
 
-Use the built-in form: *Settings → Updates → Send feedback*. No account is needed. The message is
+Use the built-in form: the speech-bubble button in the title bar, next to the settings. No account is needed. The message is
 passed on to the author; it holds neither your name nor your address unless you write them. The
 technical information attached (DeskCut version, language, Windows version) is shown before sending
 and can be unticked.
