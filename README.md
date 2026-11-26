@@ -11,7 +11,7 @@ l'écran ouvre, dans un panneau, vos raccourcis, la surveillance de votre résea
 temps, vos tâches, vos notes et vos schémas. Le panneau s'ouvre aussi par un raccourci clavier ou depuis
 la zone de notification, et certains modules s'ouvrent dans leur propre fenêtre. Le bouton « + » du
 menu crée un raccourci, une tâche, une note ou un chrono depuis n'importe où, et la dictée écrit votre
-texte dans n'importe quelle application.
+texte dans n'importe quelle application, puis en garde l'historique.
 
 Ce dépôt ne contient que les installeurs. Le code source n'est pas public.
 
@@ -48,8 +48,9 @@ version figure aussi sur la [page des versions](https://github.com/manubg17/Desk
 | **Tableaux** | Croquis à main levée et cartes mentales, ou diagrammes (organigrammes, UML, réseaux). Chaque tableau s'ouvre dans sa propre fenêtre et s'enregistre tout seul ; la liste des tableaux aussi. |
 | **Tâches** | Tâches avec échéances et rappels, liées à vos notes et fichiers. S'ouvre aussi dans sa propre fenêtre. |
 | **Notes** | Notes liées à vos tâches et fichiers. S'ouvre aussi dans sa propre fenêtre. |
-| **Fichiers** | Recherche dans vos notes, vos tâches et le contenu de vos fichiers (PDF, Word, Excel…). |
-| **Dictée** | Maintenir un raccourci, parler, relâcher : le texte est collé au curseur. La transcription est faite par votre propre serveur Whisper. Désactivée par défaut. |
+| **Recherche** | Une recherche dans vos notes, vos tâches et le contenu de vos fichiers (PDF, Word, Excel…). |
+| **Fichiers** | L'index des fichiers de vos dossiers, avec aperçu. |
+| **Dictée** | Maintenir un raccourci, parler, relâcher : le texte est collé au curseur. La transcription est faite par votre propre serveur Whisper. Désactivée par défaut. Les dictées sont gardées dans un historique ; l'IA de votre choix (votre propre serveur, ou Claude avec votre clé) en tire un résumé, un rapport ou une liste de tâches. S'ouvre aussi dans sa propre fenêtre. |
 
 L'interface est disponible en français et en anglais.
 
@@ -60,8 +61,9 @@ L'interface est disponible en français et en anglais.
 - **Ce qui sort de votre poste**, et seulement cela : la recherche d'une mise à jour (ce dépôt), les
   vérifications que vous configurez vous-même (moniteurs, cibles de ping, scan de votre réseau), la
   lecture de votre adresse IP publique affichée dans la barre de titre, l'enregistrement de votre
-  voix envoyé à votre propre serveur Whisper quand vous dictez, et les retours que vous choisissez
-  d'envoyer.
+  voix envoyé à votre propre serveur Whisper quand vous dictez, le texte des dictées que vous
+  choisissez d'envoyer à l'IA (votre propre serveur, ou Anthropic si vous activez Claude avec votre
+  clé), et les retours que vous choisissez d'envoyer.
 - **Scan réseau** : il ne porte que sur des réseaux privés, dans la limite de 1 024 adresses, et ne
   démarre jamais seul. N'analysez que les réseaux que vous administrez ou pour lesquels vous avez
   une autorisation.
@@ -95,7 +97,7 @@ DeskCut is a launcher and dashboard for Windows 11: a slim column of icons at th
 opens, in a panel, your shortcuts, the monitoring of your network, your time tracking, your tasks, your
 notes and your diagrams. The panel also opens with a keyboard shortcut or from the notification area, and
 some modules open in a window of their own. The "+" button of the menu creates a shortcut, a task, a note
-or a timer from anywhere, and dictation writes your text in any application.
+or a timer from anywhere, and dictation writes your text in any application, then keeps a history of it.
 
 This repository only holds the installers. The source code is not public.
 
@@ -131,8 +133,9 @@ shows what changed; the details of every version are also on the
 | **Boards** | Freehand sketches and mind maps, or diagrams (flowcharts, UML, networks). Each board opens in its own window and saves itself; so does the list of boards. |
 | **Tasks** | Tasks with due dates and reminders, linked to your notes and files. Also opens in a window of its own. |
 | **Notes** | Notes linked to your tasks and files. Also opens in a window of its own. |
-| **Files** | Search across your notes, your tasks and the content of your files (PDF, Word, Excel…). |
-| **Dictation** | Hold a shortcut, speak, release: the text is pasted at the cursor. The transcription is done by your own Whisper server. Off by default. |
+| **Search** | One search across your notes, your tasks and the content of your files (PDF, Word, Excel…). |
+| **Files** | The index of the files of your folders, with a preview. |
+| **Dictation** | Hold a shortcut, speak, release: the text is pasted at the cursor. The transcription is done by your own Whisper server. Off by default. Dictations are kept in a history; the AI of your choice (your own server, or Claude with your key) turns them into a summary, a report or a task list. Also opens in a window of its own. |
 
 The interface is available in French and in English.
 
@@ -143,7 +146,8 @@ The interface is available in French and in English.
 - **What leaves your machine**, and only this: the update check (this repository), the checks you set
   up yourself (monitors, ping targets, the scan of your network), the lookup of your public IP
   address shown in the title bar, the recording of your voice sent to your own Whisper server when
-  you dictate, and the feedback you choose to send.
+  you dictate, the text of the dictations you choose to send to the AI (your own server, or Anthropic
+  if you turn Claude on with your key), and the feedback you choose to send.
 - **Network scan**: it only covers private networks, up to 1,024 addresses, and never starts by
   itself. Only scan networks you administer or have permission to scan.
 
