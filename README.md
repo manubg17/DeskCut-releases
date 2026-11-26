@@ -41,10 +41,9 @@ version figure aussi sur la [page des versions](https://github.com/manubg17/Desk
 | Module | En bref |
 |---|---|
 | **Raccourcis** | Lancer applications, sites web, sessions SSH et commandes système ; copier des textes prédéfinis. Catégories, épinglage, recherche au clavier. S'ouvre aussi dans sa propre fenêtre. |
-| **Moniteurs** | Vérifier périodiquement des sites web et des adresses IP, avec état et temps de réponse. |
+| **Surveillance** | Vos sites web et adresses IP vérifiés en continu, même panneau fermé, avec une notification Windows en cas de panne et au rétablissement, et l'historique des pannes. Processeur, mémoire, disques, connexion Internet, latence, débit ; scan du réseau local avec historique, comparaison entre scans et schéma généré. S'ouvre aussi dans sa propre fenêtre. |
 | **Journal** | Suivre son temps : chronomètre, entrées manuelles, client et projet, totaux du jour et de la semaine, export CSV. S'ouvre aussi dans sa propre fenêtre. |
 | **Connaissances** | Commandes, extraits de code, procédures, liens : classés par type, copiés d'un clic. |
-| **NOC** | Processeur, mémoire, disques, connexion Internet, latence, débit. Scan du réseau local avec historique, comparaison entre scans et schéma généré. |
 | **Tableaux** | Croquis à main levée et cartes mentales, ou diagrammes (organigrammes, UML, réseaux). Chaque tableau s'ouvre dans sa propre fenêtre et s'enregistre tout seul ; la liste des tableaux aussi. |
 | **Tâches** | Tâches avec échéances et rappels, liées à vos notes et fichiers. S'ouvre aussi dans sa propre fenêtre. |
 | **Notes** | Notes liées à vos tâches et fichiers. S'ouvre aussi dans sa propre fenêtre. |
@@ -126,10 +125,9 @@ shows what changed; the details of every version are also on the
 | Module | In short |
 |---|---|
 | **Shortcuts** | Launch applications, websites, SSH sessions and system commands; copy predefined texts. Categories, pinning, keyboard search. Also opens in a window of its own. |
-| **Monitors** | Check websites and IP addresses at regular intervals, with status and response time. |
+| **Monitoring** | Your websites and IP addresses checked all the time, even with the panel closed, with a Windows notification when one goes down and when it is back, and the history of outages. CPU, memory, disks, Internet connection, latency, throughput; scan of the local network with history, comparison between scans and a generated diagram. Also opens in a window of its own. |
 | **Journal** | Track your time: timer, manual entries, client and project, day and week totals, CSV export. Also opens in a window of its own. |
 | **Knowledge** | Commands, code snippets, procedures, links: sorted by type, copied in one click. |
-| **NOC** | CPU, memory, disks, Internet connection, latency, throughput. Scan of the local network with history, comparison between scans and a generated diagram. |
 | **Boards** | Freehand sketches and mind maps, or diagrams (flowcharts, UML, networks). Each board opens in its own window and saves itself; so does the list of boards. |
 | **Tasks** | Tasks with due dates and reminders, linked to your notes and files. Also opens in a window of its own. |
 | **Notes** | Notes linked to your tasks and files. Also opens in a window of its own. |
